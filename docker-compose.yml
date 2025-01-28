@@ -1,0 +1,12 @@
+services:
+  python:
+    build:
+      context: .
+    ports:
+      - 8889:8888
+    environment:
+      - OPENAI_API_KEY=
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./data:/app/data

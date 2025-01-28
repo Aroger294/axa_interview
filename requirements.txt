@@ -1,0 +1,11 @@
+instructor
+jupyter
+openai
+rich
+xgboost
+scikit-learn
+plotly
+pandas
+ydata-profiling
+pytest
+category_encoders
